@@ -102,4 +102,8 @@ verbose =
   "vivir"
 ]
 
-verbose.forEach(function(verb){setInterval(window.open("https://www.bing.com/search?q=" + verb, "_self"), 3056);});
+verbose.forEach(function(verb, i){
+  setTimeout(function(verb){
+    verbWindow = window.open("https://www.bing.com/search?q=" + verb, "_blank")
+  }, 2056 * i);
+});
