@@ -105,5 +105,5 @@ verbose =
 verbose.forEach(function(verb, i){
   setTimeout(function(verb){
     window.open("https://www.bing.com/search?q=" + verb, "_blank")
-  }, 2056 * i);
+  }, 1056 * i);
 });
