@@ -100,7 +100,7 @@ verbose =
   "vender",
   "viajar",
   "vivir"
-]
+];
 
 verbose.forEach(function(verb, i){
   setTimeout(function(verb){
